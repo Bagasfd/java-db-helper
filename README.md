@@ -88,4 +88,34 @@
  
     Untuk merubah data cukup dengan code dibawah ini.
     
+    ```java
+    //Gunakan Map untuk datanya!!!
+    Map data = new HashMap();
+    data.put("nama","Oki Prianto")
     
+    //Gunakan Map untuk wherenya!!!
+    Map where = new HashMap();
+    where.put("id",1);
+    
+    this.update("nama_tabel", data, where); //UPDATE nama_tabel SET nama='Oki Prianto' WHERE id='1'
+    ```
+
+6. Delete data (DELETE FROM ...)
+
+   Untuk menghapus data cukup dengan code dibawah ini.
+   
+   ```java
+   //Gunakan Map untuk wherenya!!!
+   Map where = new HashMap();
+   where.put("id",1);
+   
+   this.delete("nama_tabel", where); //DELETE FROM nama_tabel WHERE id='1'
+   ```
+
+7. Close Connection
+
+   Untuk menutup connection database dengan code dibawah ini.
+   
+   ```java
+   this.MySQLDisconnect();
+   ```
