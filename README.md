@@ -1,5 +1,10 @@
 # java-db-helper
 
+### Reqruitment
+ ```java
+    mysql-connector.jar \\import library on data structure
+ ```
+
 ### Cara pemakaian
 
 1. Koneksi Database
