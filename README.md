@@ -2,5 +2,9 @@
 
 ### Cara pemakaian
 
-1. Download file diatas terlebih dahulu.
-2. Simpan file ke project anda.
+1. Koneksi Database
+    `public class MyApp {
+        public static void main(String[] args) {
+            
+        }
+    }`
