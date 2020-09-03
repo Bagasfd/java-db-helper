@@ -2,8 +2,9 @@
 
 ### Reqruitment
  ```java
-    mysql-connector.jar \\import library on data structure
+    mysql-connector.jar
  ```
+ import library di data structure
 
 ### Cara pemakaian
 
